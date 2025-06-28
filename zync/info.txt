@@ -1,0 +1,56 @@
+A dropbox inspired full stack project with NextJS, Postgres, Clerk and ImageKit
+
+00:00 - Zync
+10:55 - Planning the project with drizzle and neon
+01:10:57 - Learn zod validation schema
+01:27:18 - Signup, clerk, OTP, zod and react hook form guide in NextJS
+02:10:23 - Complete signin process with clerk
+02:25:15 - Clerk middleware guide
+02:39:35 - Upload any file with Imagekit in NextJS
+03:02:13 - How dropbox handles folders in database
+03:24:49 - Fetching files from folders and sub folders
+03:37:17 - Custom API endpoint to upload on Imagekit
+04:11:06 - Mark file as star or deleted in database
+04:25:19 - Imagekit and HeroUI providers
+04:43:36 - Assignments for this course
+------------------------------------------------------
+
+🧰 Project Tools Breakdown
+
+ImageKit.io
+👉 Used for uploading, optimizing, and delivering user files (images/docs) via CDN with transformation and security options.
+
+Next.js
+👉 The React-based full-stack framework powering the frontend and backend, including routing, SSR, API routes, and UI.
+
+Clerk (Auth)
+👉 Handles user authentication (sign up, sign in, session management) with OTP/email/password login out of the box.
+
+Neon (Postgres)
+👉 A serverless PostgreSQL database used to store file metadata, folders, users’ file states (e.g., starred/deleted), etc.
+
+Drizzle (ORM)
+👉 Used to define and query database tables in a type-safe way directly in your code, replacing raw SQL.
+
+HeroUI
+👉 A Tailwind-compatible UI component library used for building responsive and elegant interfaces quickly.
+
+--------------------------------------------------------
+
+components:
+   - authentication
+      : clerk
+   - business logic
+      : store information {design the schema}
+      : 
+   - storage
+      : imagekit
+
+------------------------------------------------------
+
+- create project in Neon , copy the URL 
+- drizzle 
+
+
+
+
