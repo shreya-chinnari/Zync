@@ -5,21 +5,12 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useSignUp } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
-// import Link from "next/link";
+import Link from "next/link";
 import { z } from "zod";
 import { Button } from "@heroui/button";
 import { Input } from "@heroui/input";
-// import { Card, CardBody, CardHeader, CardFooter } from "@heroui/card";
-import {
-	Card,
-	CardHeader,
-	CardBody,
-	CardFooter,
-	Divider,
-	Link,
-} from "@heroui/react";
-
-// import { Divider } from "@heroui/divider";
+import { Card, CardBody, CardHeader, CardFooter } from "@heroui/card";
+import { Divider } from "@heroui/divider";
 import {
 	Mail,
 	Lock,
